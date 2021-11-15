@@ -1,0 +1,271 @@
+/*Обнуление*/
+* {
+   padding: 0;
+   margin: 0;
+   border: 0;
+}
+*,
+*:before,
+*:after {
+   -moz-box-sizing: border-box;
+   -webkit-box-sizing: border-box;
+   box-sizing: border-box;
+}
+:focus,
+:active {
+   outline: none;
+}
+a:focus,
+a:active {
+   outline: none;
+}
+nav,
+footer,
+header,
+aside {
+   display: block;
+}
+html,
+body {
+   height: 100%;
+   width: 100%;
+   font-size: 100%;
+   line-height: 1;
+   font-size: 14px;
+   -ms-text-size-adjust: 100%;
+   -moz-text-size-adjust: 100%;
+   -webkit-text-size-adjust: 100%;
+}
+input,
+button,
+textarea {
+   font-family: inherit;
+}
+input::-ms-clear {
+   display: none;
+}
+button {
+   cursor: pointer;
+}
+button::-moz-focus-inner {
+   padding: 0;
+   border: 0;
+}
+a,
+a:visited {
+   text-decoration: none;
+}
+a:hover {
+   text-decoration: none;
+}
+ul li {
+   list-style: none;
+}
+img {
+   vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+   font-size: inherit;
+   font-weight: inherit;
+}
+/*--------------------*/
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto:wght@300;400;700&display=swap");
+
+.container {
+   max-width: 1024px;
+   background: rgb(253, 252, 252);
+   padding: 0;
+}
+
+a {
+   color: inherit;
+   text-decoration: underline;
+}
+a:hover {
+   color: inherit;
+}
+
+p {
+   font-family: "Roboto";
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+   font-family: "Montserrat", sans-serif;
+}
+
+/* Navigation */
+
+.header {
+   background: rgb(253, 252, 252);
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.navbar-brand {
+   font-family: "Montserrat", sans-serif;
+   font-size: 18px;
+   font-weight: 700;
+}
+
+.nav__list_item:hover {
+   cursor: pointer;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+   transition: 0.3s ease-in-out;
+}
+
+.slider__bg {
+   background: rgba(0, 0, 0, 0.3);
+}
+.callus {
+   font-size: 18px;
+   text-decoration: none;
+   color: black;
+}
+
+/* SLIDER */
+.carousel-item {
+   height: 500px;
+}
+.carousel-caption {
+   top: 100px;
+}
+
+.slider__benefits {
+   font-family: "Montserrat", sans-serif;
+   font-size: 52px;
+}
+
+.slider__text_active {
+   color: rgb(248, 155, 73);
+}
+
+/* FEATURES */
+
+.features {
+   background: rgba(0, 0, 0, 0.3);
+}
+.features__card {
+   margin-top: 50px;
+}
+.card__body:hover {
+   cursor: pointer;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+   transition: 0.3s ease-in-out;
+}
+
+/* GOODS */
+
+.card__body img {
+   height: 300px;
+   object-fit: contain;
+}
+
+#filter-1:checked ~ .row .col:not(.filter-1) {
+   display: none;
+}
+
+#filter-2:checked ~ .row .col:not(.filter-2) {
+   display: none;
+}
+
+#filter-3:checked ~ .row .col:not(.filter-3) {
+   display: none;
+}
+
+.card__text_price {
+   color: rgb(248, 155, 73);
+   font-family: "Roboto";
+   font-weight: 700;
+   font-size: 18px;
+}
+
+/* ADVISORS */
+
+.advisor__title {
+   font-family: "Montserrat", sans-serif;
+   font-size: 42px;
+   font-weight: 500;
+}
+
+.advisor__pic img {
+   height: 500px;
+   object-fit: contain;
+}
+
+.advisor__text {
+   font-weight: 500;
+   font-size: 30px;
+}
+
+/* BRANDS */
+
+.brand__title {
+   font-family: "Montserrat", sans-serif;
+   font-size: 36px;
+   font-weight: 500;
+}
+
+.brand__card_pic img {
+   height: 250px;
+   object-fit: contain;
+}
+
+/* SPECIFICS */
+
+.specific__title {
+   font-family: "Montserrat", sans-serif;
+   font-size: 22px;
+   font-weight: 500;
+}
+
+.specific__pic img {
+   height: 250px;
+   object-fit: contain;
+}
+
+.specific__text {
+   font-family: "Roboto";
+   font-weight: 400;
+   font-size: 18px;
+}
+.specific__text_active {
+   font-family: "Roboto";
+   font-weight: 700;
+}
+
+.btn__totop {
+   width: 100px;
+   border: 2px solid #ccc;
+   background: #f7f7f7;
+   text-align: center;
+   padding: 10px;
+   position: fixed;
+   bottom: 50px;
+   right: 50px;
+   cursor: pointer;
+   color: #333;
+   font-family: "Roboto";
+   font-size: 12px;
+   border-radius: 5px;
+}
+.btn__totop:hover{
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+   transition: 0.3s ease-in-out;
+}
+
+
+.section__form {
+   background: rgb(253, 252, 252);
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.footer {
+   margin-top: 150px;
+}

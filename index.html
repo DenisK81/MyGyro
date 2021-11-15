@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.0/font/bootstrap-icons.css">
+   <link rel="stylesheet" href="css/style.css">
+   <title>My-Gyro</title>
+</head>
+
+<body>
+
+   <!-- Navigation -->
+
+
+   <nav class="navbar navbar-light header">
+      <div class="container container-lg">
+         <a class="navbar-brand" href="#">
+            <img src="/images/flight.svg" alt="" width="30" height="30" class="d-inline-block align-text-top">
+            «My-Giro»
+         </a>
+
+         <ul class="nav nav-fill">
+            <li class="nav-item">
+               <button type="button" class="btn btn-secondary me-5">
+                  Заказать звонок
+               </button>
+            </li>
+            <li class="list-group-item list-group-item-secondary nav__list_item">
+               Связаться с нами: <a href="tel:8-955-555-35-25">8-955-555-35-25</a>
+            </li>
+
+         </ul>
+      </div>
+   </nav>
+
+   <!-- SLIDER -->
+   <section>
+      <div class="container container-lg">
+         <div id="slider" class="carousel slide mt-5" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+               <button type="button" data-bs-target="#slider" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+               <button type="button" data-bs-target="#slider" data-bs-slide-to="1" aria-label="Slide 2"></button>
+               <button type="button" data-bs-target="#slider" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+               <div class="carousel-item active">
+                  <img src="https://sm-way.ru/upload/iblock/76d/76d7aa5c71f90f99d76325e6c4faf4c5.jpg" class="d-block w-100" alt="...">
+                  <div class="carousel-caption d-none d-md-block">
+                     <div class="slider__bg p-5">
+                        <h1 class="h1 slider__benefits fw-bolder">Мы осуществляем поставки на прямую от производителя!</h1>
+                     </div>
+
+                  </div>
+               </div>
+               <div class="carousel-item">
+                  <img
+                     src="https://images.unsplash.com/photo-1607083206968-13611e3d76db?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1515&q=80"
+                     class="d-block w-100" alt="...">
+                  <div class="carousel-caption d-none d-md-block">
+                     <div class="slider__bg p-5">
+                        <h1 class="h2 slider__benefits fw-bolder">Мы регулярно устраиваем акции, скидки и распродажи!</h1>
+                     </div>
+
+                  </div>
+               </div>
+               <div class="carousel-item">
+                  <img
+                     src="https://images.unsplash.com/photo-1580674285054-bed31e145f59?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1470&q=80"
+                     class="d-block w-100" alt="...">
+                  <div class="carousel-caption d-none d-md-block">
+                     <div class="slider__bg p-5">
+                        <h1 class="h2 slider__benefits fw-bolder">Мы осуществляем экспресс-доставку товара по всей <span
+                              class="slider__text_active">России!</span></h1>
+                     </div>
+
+                  </div>
+               </div>
+            </div>
+
+         </div>
+      </div>
+   </section>
+
+   <!-- FEATURES -->
+   <section>
+      <div class="container container-lg">
+         <div class="row features__row">
+            <div class="col-sm-6">
+               <div class="card features__card">
+                  <div class="card-body card__body">
+                     <img src="https://novatoris.ru/wp-content/uploads/2020/01/Smart-Balance-PRO-PREMIUM-10.5-V2.jpg" class="card-img-top" alt="...">
+                     <h2 class="card-title fs-3 fw-bold">Гироскутеры для плохих дорог</h2>
+                     <p class="card-text fs-5"> Главная особенность – большие колеса, которые имеют в диаметре 26.6 см. Поэтому на гироскутере можно ездить
+                        даже по неровной поверхности, а сама поездка будет намного удобнее.</p>
+                     <a href="#" class="btn btn-secondary">Заказать звонок</a>
+                  </div>
+               </div>
+            </div>
+            <div class="col-sm-6">
+               <div class="card features__card">
+                  <div class="card-body card__body">
+                     <img src="https://novatoris.ru/wp-content/uploads/2020/01/HOVERBOT-Fiksibord.jpg" class="card-img-top" alt="...">
+                     <h2 class="card-title fs-3 fw-bold">Самая богатая комплектация</h2>
+                     <p class="card-text fs-5">Лучшие гироскутеры с уникальным дизайном и отделкой под заказ.
+                        Имеют встроенные динамики и адаптер для беспроводной связи. Такие гироскутеры очень хорошо подойдут как прекрасный подарок для детей.
+                     </p>
+                     <a href="#" class="btn btn-secondary">Заказать звонок</a>
+                  </div>
+               </div>
+            </div>
+
+            <div class="col-sm-6">
+               <div class="card features__card">
+                  <div class="card-body card__body">
+                     <img src="https://ecotraffic.ru/components/com_jshopping/files/img_products/full_xiaomi_ninebot_mini_pro_black_01.jpg" class="card-img-top"
+                        alt="...">
+                     <h2 class="card-title fs-3 fw-bold">Segway для города</h2>
+                     <p class="card-text fs-5">Имеют меньший вес и габариты. Оснащаются различными вспомогательными устройствами и предметами.
+                     </p>
+                     <a href="#" class="btn btn-secondary">Заказать звонок</a>
+                  </div>
+               </div>
+            </div>
+
+            <div class="col-sm-6">
+               <div class="card features__card">
+                  <div class="card-body card__body">
+                     <img src="https://novatoris.ru/wp-content/uploads/2020/02/KUGOO-M4-11-Ah.png" class="card-img-top" alt="...">
+                     <h2 class="card-title fs-3 fw-bold">Лучшее соотношение цена/качество</h2>
+                     <p class="card-text fs-5">С вспомогательным текстом ниже в качестве естественного перехода к дополнительному контенту.</p>
+                     <a href="#" class="btn btn-secondary">Заказать звонок</a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      </div>
+   </section>
+
+   <!-- GOODS -->
+
+   <div class="album py-5 mt-5">
+      <div class="container container-lg">
+
+         <input type="radio" class="btn-check" name="options-outlined" id="filter-all" autocomplete="off" checked>
+         <label class="btn btn-outline-secondary" for="filter-all">Всё</label>
+
+         <input type="radio" class="btn-check" name="options-outlined" id="filter-1" autocomplete="off">
+         <label class="btn btn-outline-secondary" for="filter-1">Гироскутеры</label>
+
+         <input type="radio" class="btn-check" name="options-outlined" id="filter-2" autocomplete="off">
+         <label class="btn btn-outline-secondary" for="filter-2">Электросамокаты</label>
+
+         <input type="radio" class="btn-check" name="options-outlined" id="filter-3" autocomplete="off">
+         <label class="btn btn-outline-secondary" for="filter-3">Сигвеи</label>
+
+         <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 mt-1">
+
+            <div class="col filter-1">
+               <div class="card card__body">
+                  <img class="img-fluid" src="https://electrostreet.ru/image/catalog/data/easyphoto/2931/hoverbot-a-3-lite-carbon-4-jpg-7.jpg" alt="">
+                  <div class="card-body">
+                     <p class="card-text">
+                     <h3 class="fw-bold fs-5">Гироскутер <br> HOVERBOT A-3 LIGHT</h3>
+                     </p>
+                     <div class="d-flex justify-content-between align-items-center">
+
+                        <small class="text card__text_price">от 6 999 руб</small>
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+            <div class="col filter-3">
+               <div class="card card__body">
+                  <img src="https://electrostreet.ru/image/catalog/data/SegWay/A8/mini_a8_1.jpg" alt="">
+                  <div class="card-body">
+                     <p class="card-text">
+                     <h3 class="fw-bold fs-5">Сигвей <br> Mini Segway А8</h3>
+                     </p>
+                     <div class="d-flex justify-content-between align-items-center">
+
+                        <small class="text card__text_price">от 4 999 руб</small>
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+            <div class="col filter-2">
+               <div class="card card__body">
+                  <img src="https://electrostreet.ru/image/catalog/easyphoto/5417/elektrosamokat-aovo-s3r-app-aquastop-1.jpg" alt="">
+                  <div class="card-body">
+                     <p class="card-text">
+                     <h3 class="fw-bold fs-5">Электросамокат<br>Aovo S3р+App+AquaStop</h3>
+                     </p>
+                     <div class="d-flex justify-content-between align-items-center">
+
+                        <small class="text card__text_price">от 17 900 руб</small>
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+            <div class="col filter-1">
+               <div class="card card__body">
+                  <img class="img-fluid" src="https://electrostreet.ru/image/catalog/data/easyphoto/2953/hoverbot-c-1-cartoon-multi-2-jpg-7.jpg" alt="">
+                  <div class="card-body">
+                     <p class="card-text">
+                     <h3 class="fw-bold fs-5">Гироскутер <br>Hoverbot C-1 Light 10" Cartoon</h3>
+                     </p>
+                     <div class="d-flex justify-content-between align-items-center">
+
+                        <small class="text card__text_price">от 9 990 руб</small>
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+            <div class="col filter-2">
+               <div class="card card__body">
+                  <img src="https://electrostreet.ru/image/catalog/data/easyphoto/3311/h9-2-jpg-12.jpg" alt="">
+                  <div class="card-body">
+                     <p class="card-text">
+                     <h3 class="fw-bold fs-5">Электросамокат<br>Artway X9</h3>
+                     </p>
+                     <div class="d-flex justify-content-between align-items-center">
+
+                        <small class="text card__text_price">от 23 900 руб</small>
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+            <div class="col filter-3">
+               <div class="card card__body">
+                  <img src="https://electrostreet.ru/image/catalog/data/SegWay/Ninebot/plus-mini-robot/mini-sigvej-minirobot-plus.jpg" alt="">
+                  <div class="card-body">
+                     <p class="card-text">
+                     <h3 class="fw-bold fs-5">Мини-сигвей<br>MiniRobot PLUS</h3>
+                     </p>
+                     <div class="d-flex justify-content-between align-items-center">
+
+                        <small class="text card__text_price">от 23 990 руб</small>
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+         </div>
+      </div>
+   </div>
+
+
+   <!-- ADVISORS -->
+
+   <div class="advisors py-5 mt-5">
+      <div class="container container-lg">
+         <hr class="featurette-divider">
+
+         <div class="row featurette">
+            <div class="col-lg-8 d-flex flex-column justify-content-between" style="height: inherit;">
+               <div>
+                  <h2 class="featurette-heading advisor__title">Анна</h2>
+                  <span class="text-muted">Продавец-Консультант</span>
+               </div>
+               <p class="lead pe-5 advisor__text">Some great placeholder content for the first featurette here. Imagine some exciting prose here. Lorem ipsum
+                  dolor sit amet consectetur adipisicing elit. Itaque atque temporibus voluptatem molestias accusantium pariatur incidunt, soluta non quaerat
+                  rerum minus, reiciendis cum tenetur nam iste nisi totam sequi beatae?</p>
+               <div class="text-center">
+                  <button type="button" class="btn btn-lg btn-secondary mt-3">
+                     Заказать звонок
+                  </button>
+               </div>
+            </div>
+            <div class="col-lg-4 advisor__pic">
+               <img
+                  src="https://images.unsplash.com/photo-1517841905240-472988babdf9?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=687&q=80"
+                  alt="">
+            </div>
+         </div>
+
+
+         <hr class="featurette-divider">
+
+         <div class="row featurette">
+            <div class="col-lg-8 order-lg-2 d-flex flex-column justify-content-between" style="height: inherit;">
+               <div class="text-end">
+                  <h2 class="featurette-heading advisor__title">Андрей</h2>
+                  <span class="text-muted">Техническая поддержка</span>
+               </div>
+               <p class="lead ps-5 advisor__text text-end">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam, architecto. Ea vero corrupti
+                  recusandae eum dolorum, tempora ipsa explicabo nihil omnis est libero aspernatur, impedit voluptatem ab. Adipisci, saepe perspiciatis?
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro molestias dignissimos soluta explicabo et quaerat.
+
+               </p>
+               <div class="text-center">
+                  <button type="button" class="btn btn-lg btn-secondary mt-3">
+                     Заказать звонок
+                  </button>
+               </div>
+            </div>
+            <div class="col-lg-4 order-lg-1 advisor__pic">
+               <img
+                  src="https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8cGVvcGxlfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+                  alt="">
+            </div>
+         </div>
+
+         <hr class="featurette-divider">
+
+         <div class="row featurette">
+            <div class="col-lg-8 d-flex flex-column justify-content-between" style="height: inherit;">
+               <div>
+                  <h2 class="featurette-heading advisor__title">Марина</h2>
+                  <span class="text-muted">Старший менеджер</span>
+               </div>
+               <p class="lead pe-5 advisor__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam, architecto. Ea vero corrupti
+                  recusandae eum dolorum, tempora ipsa explicabo nihil omnis est libero aspernatur, impedit voluptatem ab. Adipisci, saepe perspiciatis?
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro molestias dignissimos soluta explicabo et quaerat.
+
+               </p>
+               <div class="text-center">
+                  <button type="button" class="btn btn-lg btn-secondary mt-3">
+                     Заказать звонок
+                  </button>
+               </div>
+            </div>
+            <div class="col-lg-4 advisor__pic">
+               <img
+                  src="https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8cGVvcGxlfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+                  alt="">
+            </div>
+         </div>
+         <hr class="featurette-divider">
+      </div>
+   </div>
+
+   <!-- BRANDS -->
+
+   <div class="container container-lg px-4 py-5 mt-5" id="custom-cards">
+      <h2 class="pb-2 border-bottom brand__title text-uppercase text-center">Бренды представленные в нашем магазине</h2>
+
+      <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+         <div class="col">
+            <div class="card card-cover rounded-5 shadow-lg brand__card_pic">
+               <img src="https://maximus.ru/upload/medialibrary/6ab/maximus-ru-Novelty-Logo.jpg" alt="">
+            </div>
+         </div>
+
+         <div class="col">
+            <div class="card card-cover rounded-5 shadow-lg brand__card_pic">
+               <img src="https://maximus.ru/upload/medialibrary/21f/maximus-smart-balance-logo.png" alt="">
+            </div>
+         </div>
+
+         <div class="col">
+            <div class="card card-cover rounded-5 shadow-lg brand__card_pic">
+               <img src="https://markakachestva.ru/uploads/posts/2018-07/1530924302_roadweller.jpg" alt="">
+            </div>
+         </div>
+
+
+         <div class="col">
+            <div class="card card-cover rounded-5 shadow-lg brand__card_pic">
+               <img src="https://markakachestva.ru/uploads/posts/2018-07/1530922277_razor.jpg" alt="">
+            </div>
+         </div>
+
+         <div class="col">
+            <div class="card card-cover rounded-5 shadow-lg brand__card_pic">
+               <img src="https://markakachestva.ru/uploads/posts/2018-07/1530921839_hoverbot.jpg" alt="">
+            </div>
+         </div>
+
+         <div class="col">
+            <div class="card card-cover rounded-5 shadow-lg brand__card_pic">
+               <img src="https://markakachestva.ru/uploads/posts/2018-07/1530923722_speedroll.jpg" alt="">
+            </div>
+         </div>
+      </div>
+   </div>
+
+   <!-- SPECIFICS -->
+
+   <div class="specifics py-5 mt-5">
+      <div class="container container-lg">
+         <hr class="specific-divider">
+
+         <div class="row specific">
+            <div class="col-lg-8 d-flex flex-column justify-content-between" style="height: inherit;">
+               <div>
+                  <h2 class="specific-heading specific__title">ОСОБЕННОСТИ ГИРОСКУТЕРА</h2>
+                  <span class="text-muted specific__text">Гироскутер представляет собой транспортное средство будущего. Компактное устройство собрало в себе все
+                     самое лучшее –
+                     мобильность, экономичность, простоту эксплуатации, великолепный дизайн. Носить его с собой легко из-за небольшой массы, а перевозить можно
+                     в багажнике из-за компактных габаритов.</span>
+               </div>
+               <div class="mt-3">
+                  <ol class="lead pe-5 specific__text"><span class="specific__text_active">5 Преимуществ гироскутера:</span><br>
+
+                     <span class="d-inline-block mt-3">
+                        <li><strong>Управление –</strong> легко можно набирать скорость и входить в крутые повороты.</li>
+                     </span>
+
+                     <span class="d-inline-block mt-2">
+                        <li><strong>Экологичность –</strong> отсутствие топлива, а значит и выхлопных газов с диоксидом углерода.</li>
+                     </span>
+
+                     <span class="d-inline-block mt-2">
+                        <li><strong>Легкость –</strong> модель имеет небольшие габариты и низкий вес, поэтому в ходе транспортировки нет никаких проблем.</li>
+                     </span>
+
+                     <span class="d-inline-block mt-2">
+                        <li><strong>Простота –</strong> управление осваивается всего за 5-10 минут как взрослыми, так и детьми.</li>
+                     </span>
+
+                     <span class="d-inline-block mt-2">
+                        <li><strong>Бесшумность –</strong> электрический двигатель работает практически бесшумно.</li>
+                     </span>
+                  </ol>
+               </div>
+               <div>
+               </div>
+            </div>
+            <div class="col-lg-4 specific__pic">
+               <img src="http://giroscooters.ru/upload/medialibrary/504/giroscooters.jpg" alt="">
+            </div>
+         </div>
+
+
+         <hr class="specifics-divider">
+
+         <div class="row specifics">
+            <div class="col-lg-8 order-lg-2 d-flex flex-column justify-content-between" style="height: inherit;">
+               <div class="text-end">
+                  <h2 class="specific-heading specific__title">ОСОБЕННОСТИ САМОКАТА</h2>
+                  <span class="text-muted specific__text">Почему на улицах городов и сел появляется все больше электросамокатов? Потому что, прокатившись один
+                     раз, человек уже
+                     ни за что не откажет себе в удовольствии повторить прогулку снова и снова. А некоторые даже рассматривают электрический самокат как
+                     достойную альтернативу автомобилю.</span>
+               </div>
+               <div class="mt-3">
+                  <ol class="lead pe-5 specific__text"><span class="specific__text_active">5 Преимуществ самоката:</span><br>
+
+                     <span class="d-inline-block mt-3">
+                        <li><strong>Универсальность –</strong>для детей это самая желанная игрушка, для взрослых — надежное средство передвижения</li>
+                     </span>
+
+                     <span class="d-inline-block mt-2">
+                        <li><strong>Экологичность –</strong> отсутствие топлива, а значит и выхлопных газов с диоксидом углерода.</li>
+                     </span>
+
+                     <span class="d-inline-block mt-2">
+                        <li><strong>Отсутствие навыков вождения –</strong> купил, изучил, встал и поехал. Так происходит у большинства пользователей</li>
+                     </span>
+
+                     <span class="d-inline-block mt-2">
+                        <li><strong>Эргономичность –</strong> самые востребованные модели унисекс легкие, компактные, удобно и быстро складываются, хранятся
+                           зимой в квартире, не занимая много места</li>
+                     </span>
+
+                     <span class="d-inline-block mt-2">
+                        <li><strong>Маневренность –</strong> электрический самокат проедет там, где даже мопед и мотоцикл вынуждены стоять в пробке</li>
+                     </span>
+                  </ol>
+               </div>
+
+               <div>
+               </div>
+
+            </div>
+            <div class="col-lg-4 order-lg-1 specific__pic">
+               <img src="https://globrussia.ru/image/catalog/Blog/004/globber-one-nl-205-gorodskie-skladnye-samokaty-dlya-tinejdzherov-i-vzroslyh-10.jpg"
+                  alt="">
+            </div>
+         </div>
+
+         <hr class="specifics-divider">
+
+         <div class="row specifics">
+            <div class="col-lg-8 d-flex flex-column justify-content-between" style="height: inherit;">
+               <div>
+                  <h2 class="specific-heading specific__title">ОСОБЕННОСТИ СИГВЕЯ</h2>
+                  <span class="text-muted specific__text">На данный момент наилучшее применение сегвей нашел в патрулировании территорий, в поездке по
+                     промышленным или офисным
+                     комплексам, в туризме и на курортах. С каждым годом его пользователей становятся больше и больше, потому каждому полезно узнать об этом
+                     виде транспорта и управлении им.</span>
+               </div>
+               <div class="mt-3">
+                  <ol class="lead pe-5 specific__text"><span class="specific__text_active">5 Преимуществ сигвея:</span><br>
+
+                     <span class="d-inline-block mt-3">
+                        <li><strong>Тихий –</strong>данное транспортное средство работает в бесшумном режиме.</li>
+                     </span>
+
+                     <span class="d-inline-block mt-2">
+                        <li><strong>Экологичный –</strong> отсутствие необходимости в заправке горючим (лишь подзарядка батареи).</li>
+                     </span>
+
+                     <span class="d-inline-block mt-2">
+                        <li><strong>Самобалансировка –</strong>ключевая особенность сигвея. Устройство реагирует на незначительное изменение положения корпуса
+                           водителя.</li>
+                     </span>
+
+                     <span class="d-inline-block mt-2">
+                        <li><strong>Эргономичный –</strong>легкий, компактный, удобно и быстро складывается и хранится.</li>
+                     </span>
+
+                     <span class="d-inline-block mt-2">
+                        <li><strong>Маневренный –</strong>возможность быстрого перемещения по городу, офису, дому вместе с тяжеловесными грузами, которые
+                           проблематично транспортировать вручную в тех же условиях.</li>
+                     </span>
+                  </ol>
+               </div>
+
+               <div>
+               </div>
+
+            </div>
+            <div class="col-lg-4 specific__pic">
+               <img src="https://i0.wp.com/electrosam.ru/wp-content/uploads/2017/08/Sigv-1.jpg?fit=400%2C340&ssl=1" alt="">
+            </div>
+         </div>
+         <hr class="specifics-divider">
+      </div>
+   </div>
+
+   <div class="b-example-divider"></div>
+
+   <section class="mt-5 section__form p-5">
+      <div class="container container-lg">
+         <div class="row justify-content-center">
+            <div class="col-lg-6">
+
+               <form action="#" class="row">
+                  <div class="col-lg-6">
+                     <input type="name" class="form-control form-control-lg" placeholder="Ваше Имя">
+                  </div>
+                  <div class="col-lg-6">
+                     <input type="email" class="form-control form-control-lg" placeholder="Ваш Email">
+                  </div>
+                  <div class="col-lg-12">
+                     <input type="submit" class="btn btn-secondary btn-lg w-100 mt-3" value="Подписаться">
+                  </div>
+               </form>
+            </div>
+         </div>
+      </div>
+   </section>
+
+   <div class="btn__totop d-flex justify-content-center">
+      <i class="bi bi-chevron-double-up fs-3">
+         <p class="float-end fs-5 mt-2 me-2"><a href="#">НаВерх</a></p>
+      </i>
+   </div>
+
+
+   <div class="b-example-divider"></div>
+
+   <div class="container container-lg">
+      <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 border-top footer">
+         <div class="col-md-4 d-flex align-items-center">
+            <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+               <img src="/images/flight.svg" alt="" width="30" height="30" class="d-inline-block align-text-top">
+            </a>
+            <span class="text-muted">&copy; «My-Giro»</span>
+         </div>
+         <div class="col-md-4 d-flex align-items-center">
+            <p class="text-muted">Реквизиты компании: ООО "Май-Гиро" ОГРН 1167746622988 ИНН 7725322223 Юр. Адрес: г. Москва Дербеневская набережная, д.7 стр.2
+               пом. 1 ком. 35</p>
+         </div>
+
+         <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+            <li class="ms-3"><a class="text-muted" href="#"><i class="bi bi-twitter fs-3"></i></a></li>
+            <li class="ms-3"><a class="text-muted" href="#"><i class="bi bi-instagram fs-3"></i></a></li>
+            <li class="ms-3"><a class="text-muted" href="#"><i class="bi bi-facebook fs-3"></i></a></li>
+         </ul>
+      </footer>
+   </div>
+
+</body>
+
+</html>
